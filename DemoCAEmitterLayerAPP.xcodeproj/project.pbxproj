@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		1492BBEC275A2E0C0098869C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492BBEB275A2E0C0098869C /* AppDelegate.swift */; };
 		1492BBEE275A2E0C0098869C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492BBED275A2E0C0098869C /* SceneDelegate.swift */; };
-		1492BBF0275A2E0C0098869C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492BBEF275A2E0C0098869C /* ViewController.swift */; };
+		1492BBF0275A2E0C0098869C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492BBEF275A2E0C0098869C /* FirstViewController.swift */; };
 		1492BBF3275A2E0C0098869C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1492BBF1275A2E0C0098869C /* Main.storyboard */; };
 		1492BBF5275A2E190098869C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1492BBF4275A2E190098869C /* Assets.xcassets */; };
 		1492BBF8275A2E190098869C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1492BBF6275A2E190098869C /* LaunchScreen.storyboard */; };
+		1492BC00275A540D0098869C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492BBFF275A540D0098869C /* SecondViewController.swift */; };
+		1492BC03275A7C2F0098869C /* christmas.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1492BC02275A7C2F0098869C /* christmas.mp4 */; };
+		1492BC05275A84E00098869C /* chainsmokers.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1492BC04275A84E00098869C /* chainsmokers.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1492BBE8275A2E0C0098869C /* DemoCAEmitterLayerAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCAEmitterLayerAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1492BBEB275A2E0C0098869C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1492BBED275A2E0C0098869C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1492BBEF275A2E0C0098869C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1492BBEF275A2E0C0098869C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1492BBF2275A2E0C0098869C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1492BBF4275A2E190098869C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1492BBF7275A2E190098869C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1492BBF9275A2E190098869C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1492BBFF275A540D0098869C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1492BC02275A7C2F0098869C /* christmas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = christmas.mp4; sourceTree = "<group>"; };
+		1492BC04275A84E00098869C /* chainsmokers.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chainsmokers.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		1492BBEA275A2E0C0098869C /* DemoCAEmitterLayerAPP */ = {
 			isa = PBXGroup;
 			children = (
+				1492BC02275A7C2F0098869C /* christmas.mp4 */,
+				1492BC04275A84E00098869C /* chainsmokers.mp4 */,
 				1492BBEB275A2E0C0098869C /* AppDelegate.swift */,
 				1492BBED275A2E0C0098869C /* SceneDelegate.swift */,
-				1492BBEF275A2E0C0098869C /* ViewController.swift */,
 				1492BBF1275A2E0C0098869C /* Main.storyboard */,
 				1492BBF4275A2E190098869C /* Assets.xcassets */,
 				1492BBF6275A2E190098869C /* LaunchScreen.storyboard */,
 				1492BBF9275A2E190098869C /* Info.plist */,
+				1492BBEF275A2E0C0098869C /* FirstViewController.swift */,
+				1492BBFF275A540D0098869C /* SecondViewController.swift */,
 			);
 			path = DemoCAEmitterLayerAPP;
 			sourceTree = "<group>";
@@ -126,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1492BBF8275A2E190098869C /* LaunchScreen.storyboard in Resources */,
+				1492BC03275A7C2F0098869C /* christmas.mp4 in Resources */,
+				1492BC05275A84E00098869C /* chainsmokers.mp4 in Resources */,
 				1492BBF5275A2E190098869C /* Assets.xcassets in Resources */,
 				1492BBF3275A2E0C0098869C /* Main.storyboard in Resources */,
 			);
@@ -138,9 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1492BBF0275A2E0C0098869C /* ViewController.swift in Sources */,
+				1492BBF0275A2E0C0098869C /* FirstViewController.swift in Sources */,
 				1492BBEC275A2E0C0098869C /* AppDelegate.swift in Sources */,
 				1492BBEE275A2E0C0098869C /* SceneDelegate.swift in Sources */,
+				1492BC00275A540D0098869C /* SecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
